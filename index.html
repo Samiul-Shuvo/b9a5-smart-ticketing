@@ -72,7 +72,7 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <a
+            <a 
               class="btn text-lg bg-[#1DD1001A] border-green-500 text-[#1DD100]"
               >Bus <span><img src="images/bus-icon.png" alt="" /></span
             ></a>
@@ -242,10 +242,10 @@
             <p class="mr-2">A</p>
             <div class="grid grid-cols-4 gap-12 w-full">
               <div class="col-span-2 flex gap-2"> 
-                <button class="btn w-1/2">A1</button>
-                <button class="btn w-1/2">A2</button>
-                <button class="btn w-1/2">A3</button>
-                <button class="btn w-1/2">A4</button>
+                <button id="A1" class="btn sit w-1/2">A1</button>
+                <button id="A2" class="btn sit w-1/2">A2</button>
+                <button id="A3" class="btn sit w-1/2">A3</button>
+                <button id="A4" class="btn sit w-1/2">A4</button>
               </div>
             </div>
           </div>
@@ -253,11 +253,11 @@
           <div class="mb-2 font-inter gap-4 flex">
             <p class="mr-2 ">B</p>
             <div class="grid grid-cols-4 gap-12 w-full">
-              <div class="col-span-2 flex gap-2"> 
-                <button class="btn w-1/2">B1</button>
-                <button class="btn w-1/2">B2</button>
-                <button class="btn w-1/2">B3</button>
-                <button class="btn w-1/2">B4</button>
+              <div class="col-span-2 flex gap-2">
+                <button id="B1" class="btn sit w-1/2">B1</button>
+                <button id="B2" class="btn sit w-1/2">B2</button>
+                <button id="B3" class="btn sit w-1/2">B3</button>
+                <button id="B4" class="btn sit w-1/2">B4</button>
               </div>
             </div>
           </div>
@@ -270,7 +270,7 @@
           <hr style="border-bottom: 1px dotted #ccc; margin: 0; padding: 0;">
          
           <div class="bg-gray-300 p-3 mt-4 rounded-lg">
-            <div class="border-2 mt-4 flex justify-between mx-2">
+            <div class=" mt-4 flex justify-between mx-2">
               <h3 class="font-bold">Seat<sup class="border-2 bg-[#1DD100] p-0.5  rounded-lg">0</sup></h3>
               <h3 class="font-bold">Class</h3>
               <h3 class="font-bold">Price</h3>
@@ -348,5 +348,8 @@
         </div>
       </nav>
     </footer>
+
+    <script src="scripts/utility.js"></script>
+    <script src="scripts/bus-seat.js"></script>
   </body>
 </html>
